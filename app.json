@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "ome-ni-warikan-mobile-app",
-    "slug": "ome-ni-warikan-mobile-app",
+    "name": "多めniワリカン",
+    "slug": "ome-ni-warikan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "omeniwarikanmobileapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "privacy": "public",
     "ios": {
       "supportsTablet": true
     },
@@ -37,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e697425e-5f85-48c2-a907-f60f70884870"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e697425e-5f85-48c2-a907-f60f70884870"
     }
   }
 }
